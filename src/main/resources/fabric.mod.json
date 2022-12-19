@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "create-food",
+  "version": "${version}",
+  "name": "Create Food",
+  "description": "Food for Create",
+  "authors": [
+    "alfrh02"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/create-food/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "land.alfred.createfood.CreateFood"
+    ]
+  },
+  "mixins": [
+    "createfood.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
