@@ -25,29 +25,6 @@ repositories {
             }
         }
     }
-    maven { url = "https://maven.quiltmc.org/repository/release" }
-    maven { url = "https://hephaestus.dev/release" }
-    maven { url = "https://cursemaven.com" }
-    maven { url = "https://maven.parchmentmc.org" }
-    maven { url = "https://maven.fabricmc.net/" }
-    maven { url = "https://maven.tterrag.com/" }
-    maven { url = "https://storage.googleapis.com/devan-maven/" }
-    maven { url = "https://maven.shedaniel.me/" }
-    maven { url = "https://aperlambda.github.io/maven" }
-    maven { url = "https://ladysnake.jfrog.io/artifactory/mods" }
-    maven { url = "https://maven.kotlindiscord.com/repository/terraformers/" }
-    maven { url = "https://mvn.devos.one/releases/" }
-    maven { url = "https://mvn.devos.one/snapshots/" }
-    maven { url = "https://maven.terraformersmc.com/" }
-    maven { url = "https://maven.cafeteria.dev/releases/" }
-    maven { url = "https://jitpack.io/" }
-    maven { url = "https://maven.gegy.dev" }
-    maven { url = "https://dvs1.progwml6.com/files/maven/" }
-    maven { url = "https://modmaven.dev" }
-    maven { url = "https://maven.gudenau.net" }
-    maven { url = "https://maven.blamejared.com/vazkii/botania/Botania/" }
-    maven { url = "https://maven.kyrptonaught.dev/" }
-    maven { url = "https://maven.jamieswhiteshirt.com/libs-release" }
 }
 
 dependencies {
@@ -58,15 +35,6 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}" // fabric api
     modImplementation "maven.modrinth:Xbc0uyRg:${project.create_version}" // create
-
-    modLocalRuntime "com.tterrag.registrate_fabric:Registrate:${project.registrate_version}" // registrate fabric
-    modLocalRuntime "com.jozufozu.flywheel:flywheel-fabric-${project.minecraft_version}:${project.flywheel_version}" // flywheel
-    modLocalRuntime "com.jamieswhiteshirt:reach-entity-attributes:${project.reach_entity_attributes_version}"
-    modLocalRuntime "dev.cafeteria:fake-player-api:${project.fake_player_api_version}"
-    modLocalRuntime "io.github.tropheusj:milk-lib:${project.milk_lib_version}"
-    // night-config wouldnt work so i just added it to the build mods folder lol. it worked so whatever
-
-    modLocalRuntime "maven.modrinth:mOgUt4GM:${project.modmenu_version}" // mod menu -- https://modrinth.com/mod/modmenu/version/4.1.2
 }
 
 processResources {

@@ -9,7 +9,8 @@ public class CreateFood implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
     @Override
     public void onInitialize() {
-        System.out.println("Helo");
+        LOGGER.debug("CreateFood Initialised!");
+        System.out.println("CreateFood Initialised!");
         CreateFoodRegistry.init();
     }
 }
