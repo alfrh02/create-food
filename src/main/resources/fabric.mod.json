@@ -14,6 +14,9 @@
   "entrypoints": {
     "main": [
       "land.alfred.createfood.CreateFood"
+    ],
+    "client": [
+      "land.alfred.createfood.CreateFoodClient"
     ]
   },
   "mixins": [
