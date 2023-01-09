@@ -1,8 +1,10 @@
 {
   "item.createfood.butter": "Butter",
   "item.createfood.cocoa_butter": "Cocoa Butter",
+  "item.createfood.incomplete_cocoa_butter": "Incomplete Cocoa Butter",
   "itemGroup.createfood.general": "Create Food",
   "item.createfood.bar_of_white_chocolate": "Bar of White Chocolate",
   "item.createfood.white_chocolate_bucket": "White Chocolate Bucket",
-  "item.createfood.white_chocolate_glazed_berries": "White Chocolate Glazed Berries"
+  "item.createfood.white_chocolate_glazed_berries": "White Chocolate Glazed Berries",
+  "block.createfood.white_chocolate": "White Chocolate"
 }

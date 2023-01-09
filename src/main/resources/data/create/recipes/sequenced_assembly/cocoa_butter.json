@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createfood:cocoa_butter"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createfood:incomplete_cocoa_butter"
+        },
+        {
+          "amount": 40500,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createfood:incomplete_cocoa_butter"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createfood:incomplete_cocoa_butter"
+        }
+      ],
+      "results": [
+        {
+          "item": "createfood:incomplete_cocoa_butter"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createfood:incomplete_cocoa_butter"
+  }
+}

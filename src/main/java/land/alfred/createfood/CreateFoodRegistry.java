@@ -23,6 +23,7 @@ public class CreateFoodRegistry {
 
     public static Item BUTTER;
     public static Item COCOA_BUTTER;
+    public static Item INCOMPLETE_COCOA_BUTTER;
 
     public static Item BAR_OF_WHITE_CHOCOLATE;
     public static Item WHITE_CHOCOLATE_GLAZED_BERRIES;
@@ -45,6 +46,7 @@ public class CreateFoodRegistry {
 
         BUTTER = registerItem(new Item(new Item.Settings().food(CreateFoodComponents.BUTTER).group(CreateFood.ITEM_GROUP)), "butter");
         COCOA_BUTTER = registerItem(new Item(new Item.Settings().food(CreateFoodComponents.COCOA_BUTTER).group(CreateFood.ITEM_GROUP)), "cocoa_butter");
+        INCOMPLETE_COCOA_BUTTER = registerItem(new Item(new Item.Settings().food(CreateFoodComponents.INCOMPLETE_COCOA_BUTTER).group(CreateFood.ITEM_GROUP)), "incomplete_cocoa_butter");
     }
 
     public static Block registerBlock(Block block, String name) {
